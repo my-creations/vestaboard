@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vestaboard Lisbon Clock</title>
+    <meta
+      name="description"
+      content="A minimal Vestaboard-style clock showing Lisbon time with a black background, white letters, and a typewriter-like click cascade sound."
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <div class="board-shell">
+        <div id="board" class="vestaboard" aria-label="Vestaboard Lisbon clock"></div>
+      </div>
+      <div class="controls">
+        <p id="status-text" class="status-text status-text--interactive" role="button" tabindex="0" aria-pressed="false">Europe/Lisbon · sound off</p>
+      </div>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
