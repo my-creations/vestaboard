@@ -2,6 +2,10 @@
 
 A minimal Vestaboard-style clock website.
 
+## What it does
+
+Vestaboard recreates a split-flap display in the browser and keeps it synced to Lisbon time.
+
 ## Features
 
 - 6 × 22 character grid
